@@ -18,13 +18,13 @@ divisao_inteira = numero1 // numero2
 resto = numero1 % numero2
 potencia = numero1 ** numero2
 
-print("Soma:", numero1, "+", numero2, "=", soma)
-print("Subtração:", numero1, "-", numero2, "=", subtracao)
-print("Multiplicação:", numero1, "*", numero2, "=", multiplicacao)
-print("Divisão:", numero1, "/", numero2, "=", divisao)
-print("Divisão Inteira:", numero1, "//", numero2, "=", divisao_inteira)
-print("Resto:", numero1, "%", numero2, "=", resto)
-print("Potência:", numero1, "**", numero2, "=", potencia)
+print(f"Soma: {numero1} + {numero2} = {soma}")
+print(f"Subtração: {numero1} - {numero2} = {subtracao}")
+print(f"Multiplicação: {numero1} * {numero2} = {multiplicacao}")
+print(f"Divisão: {numero1} / {numero2} = {divisao:.2f}")
+print(f"Divisão Inteira: {numero1} // {numero2} = {divisao_inteira}")
+print(f"Resto: {numero1} % {numero2} = {resto}")
+print(f"Potência: {numero1} ** {numero2} = {potencia}")
 
 print("-" * 20)
 
