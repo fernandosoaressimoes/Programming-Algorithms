@@ -22,6 +22,10 @@ Este repositório reúne exercícios práticos de Python, cobrindo tópicos como
 ```bash
    python projetosala.py
 ```
+3. Ou experimente o jogo de adivinhação (pratica condicionais, laços e funções):
+```bash
+   python jogo_adivinhacao.py
+```
 
 ## 🛠️ Tecnologias
 
